@@ -1,0 +1,119 @@
+.leftMenu {
+    width : 280px;
+    height: 100%;
+    min-height: 100vh;
+    background: rgba(34, 34, 34, 0.6);
+    backdrop-filter: blur(10px); /* To give background image a blurr effect*/
+    padding: 20px 15px;
+    overflow: hidden; /* When the screen shrinks just display icon , name / contents must not get overflow*/
+    transition: all 0.3s ease;
+}
+.leftMenu .logoContainer {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftMenu .logoContainer i {
+    font-size: 30px;
+}
+.leftMenu .logoContainer i:nth-of-type(2) {
+    font-size: 20px;
+}
+.leftMenu .logoContainer h2 {
+    font-size: 20px;
+}
+
+.searchBox {
+    width: 100%;
+    height: 45px;
+    /* border: 2px solid red; */
+    position: relative;
+    margin-top: 18px;
+    color: #848484;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4); /* x-axis yaxis blurreffect color*/
+}
+.searchBox input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: rgba(0,0,0,0.5);
+    padding-left: 45px;
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.searchBox .searchIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #848484;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+
+
+}
+
+.menuContainer {
+    /* border: 2px solid red; */
+    margin: 15px 0px;
+
+}
+.menuContainer .title {
+    color: #848484;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform:uppercase;
+}
+.menuContainer ul {
+    width: 100%;
+    padding: 0;
+
+}
+.menuContainer ul li {
+    list-style: none;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 5px 0px;
+    position: relative;
+
+}
+.menuContainer ul li a {
+    text-decoration: none;
+    color: #848484;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+}
+.menuContainer ul li a i {
+    font-size: 18px;
+    margin-right: 15px;
+}
+.menuContainer ul li:before {
+    position: absolute;
+    content: "";
+    top:0;
+    width: 0px;
+    height: 100%;
+    background: #49e12e;
+    border-radius: 5px;
+    left: -14px;
+}
+.menuContainer ul li:hover::before {
+    width: 5px;
+    transition: 0.5s;
+}
+.menuContainer ul li a:hover {
+    color: #f1f1f1;
+    transition: 0.4s;
+}
