@@ -3,6 +3,7 @@ import "../styles/LeftMenu.css";
 
 import { Menu } from './Menu';
 import { MenuList } from './MenuList';
+import { Menuplaylist } from './Menuplaylist';
 
 
 
@@ -23,6 +24,7 @@ function LeftMenu() {
       </div>
     
       <Menu title={"Menu"} menuObject={MenuList} />
+      <Menuplaylist/>
       
     </div>
   )

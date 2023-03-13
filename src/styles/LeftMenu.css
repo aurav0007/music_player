@@ -109,11 +109,41 @@
     border-radius: 5px;
     left: -14px;
 }
-.menuContainer ul li:hover::before {
+.menuContainer ul li:hover::before,
+.menuContainer ul li.active::before {
     width: 5px;
     transition: 0.5s;
 }
-.menuContainer ul li a:hover {
+.menuContainer ul li:hover a,
+.menuContainer ul li.active a {
     color: #f1f1f1;
     transition: 0.4s;
+}
+
+.playListContainer {
+    cursor: pointer;
+    margin : 15px 0;
+}
+.playListContainer .nameContainer {
+    display: flex;
+    padding: 0px 3px;
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    color: #848484;
+  
+    margin-bottom: 10px;
+  
+}
+.playListContainer .nameContainer p{
+    color: #848484;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform:uppercase;
+
+}
+.playListContainer .nameContainer i {
+    cursor: pointer;
+    color: #f1f1f1;
 }
