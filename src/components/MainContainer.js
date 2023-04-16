@@ -1,5 +1,6 @@
 import React ,{useEffect} from 'react'
 import { Banner } from './Banner';
+import { AudioList } from './AudioList';
 
 import '../styles/MainContainer.css';
 import { FaUser } from 'react-icons/fa';
@@ -34,6 +35,7 @@ function MainContainer() {
           12.3M <span>Followers</span>
         </p>
       </div>
+       <AudioList />
     </div>
   )
 }
