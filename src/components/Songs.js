@@ -1,13 +1,12 @@
-import bb from '../img/bb.jpg'
-import bcmp3 from '../audio/bcmp3.mp3'
+
 const Songs = [
     {
       id: 1,
       favourite: false,
-      songName: "Bella Ciao",
-      artist: "El Profesor",
-      song: " https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba-online-audio-converter.com_-1.wav",
-      imgSrc: "https://images.unsplash.com/photo-1640315322254-75764eae8dbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+      songName: "Nadaan Parinday",
+      artist: "Mohit Chauhan",
+      song: "https://firebasestorage.googleapis.com/v0/b/webtech-spotifyclone.appspot.com/o/Songs%2Fs1.mp3?alt=media&token=33f8bf53-270c-4ccc-90d7-1165aba2df3b",
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/webtech-spotifyclone.appspot.com/o/Images%2Fi1.jpg?alt=media&token=a09b3952-3c61-4f9d-bab6-ff19e8cd5cee",
         
     },
     {
