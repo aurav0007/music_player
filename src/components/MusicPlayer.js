@@ -42,6 +42,7 @@ function MusicPlayer({ song, imgSrc }) {
     const prevValue = isPlaying;
 
     if (!prevValue) {
+        
       audioPlayer.current.play();
       animationRef.current = requestAnimationFrame(whileplaying);
     } else {

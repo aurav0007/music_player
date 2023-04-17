@@ -1,12 +1,14 @@
+import bb from '../img/bb.jpg'
+import bcmp3 from '../audio/bcmp3.mp3'
 const Songs = [
     {
       id: 1,
       favourite: false,
       songName: "Bella Ciao",
       artist: "El Profesor",
-      song: "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Ringtone%2Fbellaciao.mp3?alt=media&token=e1dd8233-3521-4574-8957-d51af9a5db5c",
-      imgSrc:
-        "https://firebasestorage.googleapis.com/v0/b/spotify-clone-7a2ef.appspot.com/o/Images%2Fmoneyheist.jpg?alt=media&token=32baf3d7-0ab5-47d5-ba48-554792cea117",
+      song: " https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba-online-audio-converter.com_-1.wav",
+      imgSrc: "https://images.unsplash.com/photo-1640315322254-75764eae8dbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+        
     },
     {
       id: 2,

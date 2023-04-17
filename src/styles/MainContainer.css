@@ -286,3 +286,53 @@ transition: all 0.3s cubic-bezier(0.175,0.885,0.32,1.275);
     color: #49e12e;
     filter: drop-shadow(0px 0px 4px #49e12e);
 }
+
+
+    /* responsive  */
+
+@media screen and (max-width: 550px) {
+    .mainContainer {
+        min-width: 380px;
+    }
+
+    .content {
+        padding: 10px 15px;
+    }
+    .banner .content .artist .left .name h2 {
+        font-size: 25px;
+    }
+    .banner .content .artist .right a{
+        padding: 5px 15px;
+        font-size: 12px;
+        margin: 0px 10px;
+    }
+    .menuList {
+        padding: 5px 10px;
+    }
+   .menuList ul li {
+    margin: 0 5px;
+   }
+   .menuList p {
+    font-size: 12px;
+    margin-left: 10px;
+   }
+   .menuList p i {
+    font-size: 10px;
+   }
+   .audioList {
+    padding: 10px 5px;
+   }
+   .audioList .songs .song .section {
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .audioList .songs .song .section .songName {
+     width: 100%;
+   }
+   .audioList .songs .song .section .hits {
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+   }
+   
+}

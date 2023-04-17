@@ -148,3 +148,23 @@
     font-weight: bold;
 
 }
+
+@media screen and (max-width: 550px) {
+    .songImage {
+        width: 100px;
+        min-width: 100px;
+
+    }
+    .songAttri .top .left i,
+    .songAttri .top .middle i,
+    .songAttri .top .right i {
+        margin: 0px 8px;
+        font-size: 12px;
+    }
+    .songAttri .bottom {
+        padding: unset;
+    }
+    .songAttri .bottom .progressBar {
+        width: 65%;
+    }
+}
